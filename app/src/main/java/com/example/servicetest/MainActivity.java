@@ -50,26 +50,21 @@ public class MainActivity extends AppCompatActivity {
         btnResult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Uri uri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
-                String[] projection = {
-                    MediaStore.Audio.Media.ALBUM,
-                    MediaStore.Audio.Media.TITLE,
-                    MediaStore.Audio.Media.DURATION,
-                    MediaStore.Audio.Media.DATA,
-                    MediaStore.Audio.Media.ARTIST,
-                };
-
-                Log.e("AAA Start"," : "+projection[0]);
-                Log.e("AAA Start"," : "+projection[1]);
-                Log.e("AAA Start"," : "+projection[2]);
-                Log.e("AAA Start"," : "+projection[3]);
-                Log.e("AAA Start"," : "+projection[4]);
-
-
-
-
                 Log.e("AAA Start"," is rand ? : "+ mm.isRad());
+//                Uri uri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
+//                String[] projection = {
+//                    MediaStore.Audio.Media.ALBUM,
+//                    MediaStore.Audio.Media.TITLE,
+//                    MediaStore.Audio.Media.DURATION,
+//                    MediaStore.Audio.Media.DATA,
+//                    MediaStore.Audio.Media.ARTIST,
+//                };
+//
+//                Log.e("AAA Start"," : "+projection[0]);
+//                Log.e("AAA Start"," : "+projection[1]);
+//                Log.e("AAA Start"," : "+projection[2]);
+//                Log.e("AAA Start"," : "+projection[3]);
+//                Log.e("AAA Start"," : "+projection[4]);
             }
         });
 
