@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="check result"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="0dp"  />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="back"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="0dp"  />
+</RelativeLayout>

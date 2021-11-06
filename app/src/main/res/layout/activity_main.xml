@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_set_rand"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:text="set rand" />
+
+    <Button
+        android:id="@+id/btn_set_no_rand"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="0dp"
+        android:text="set not rand" />
+
+    <Button
+        android:id="@+id/btn_result"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="check result"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="0dp" />
+    <Button
+        android:id="@+id/btn_got"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="go to B"
+        android:layout_marginTop="900dp"
+        android:layout_marginLeft="0dp" />
+
+
+</RelativeLayout>
